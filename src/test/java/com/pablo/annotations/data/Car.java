@@ -1,6 +1,6 @@
 package com.pablo.annotations.data;
 
-import com.dzone.albanoj2.examples.annotation.jsonserializer.JsonField;
+import com.pablo.annotations.JsonField;
 
 public class Car {
 
