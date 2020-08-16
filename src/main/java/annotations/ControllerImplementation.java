@@ -1,4 +1,4 @@
-package com.pablo.annotations;
+package annotations;
 
 import models.StateValue;
 
@@ -9,6 +9,6 @@ import java.lang.annotation.Target;
 
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.TYPE)
-public @interface SubViewImplementation {
+public @interface ControllerImplementation {
     public StateValue value() default StateValue.INITIAL;
 }

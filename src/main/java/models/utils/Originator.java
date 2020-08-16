@@ -2,8 +2,8 @@ package models.utils;
 
 public interface Originator {
 
-    void restore(Memento memento);
+    void restore(Memento memento) throws Exception;
 
-    Memento createMemento();
+    Memento createMemento() throws Exception;
 
 }

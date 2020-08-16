@@ -1,4 +1,4 @@
-package com.pablo.annotations;
+package annotations;
 
 
 import java.io.*;

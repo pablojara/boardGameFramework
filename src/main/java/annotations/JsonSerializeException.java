@@ -1,4 +1,4 @@
-package com.pablo.annotations;
+package annotations;
 
 public class JsonSerializeException extends Exception {
 
